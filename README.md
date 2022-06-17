@@ -1,0 +1,1 @@
+# latvia-spring-cicd
