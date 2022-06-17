@@ -42,7 +42,7 @@ public class MathControllerTest {
 		
 		Double result = controller.circleArea(r);
 		
-		assertEquals(12, result);
+		assertEquals(12.56, result);
 	}
 	
 }
