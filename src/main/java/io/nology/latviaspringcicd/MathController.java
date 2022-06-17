@@ -14,4 +14,8 @@ public class MathController {
 		return (height + width) * 2;
 	}
 	
+	@GetMapping(value = "/circle/area/{r}")
+	public Double circleArea(@PathVariable Double r) {
+		return 3.14 * Math.pow(r, 2);
+	}
 }

@@ -36,4 +36,13 @@ public class MathControllerTest {
 		
 	}
 	
+	@Test
+	public void circleAreaShouldReturnCorrectArea() {
+		Double r = 2d;
+		
+		Double result = controller.circleArea(r);
+		
+		assertEquals(12, result);
+	}
+	
 }
