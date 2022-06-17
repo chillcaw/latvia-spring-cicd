@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class LatviaSpringCicdApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(LatviaSpringCicdApplication.class, args);
-	}
+  public static void main(String[] args) {
+    SpringApplication.run(LatviaSpringCicdApplication.class, args);
+  }
 
 }
